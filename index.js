@@ -38,7 +38,7 @@
 ***/
 
 // Load .env variables.
-require("dotenv").load();
+require(".env").load();
 
 // Require needed modules.
 const Discord = require("discord.js");
@@ -52,7 +52,7 @@ const client = new Discord.Client();
 const prefix = "=";
 const deleteDelay = 5000; // 5 second delete delay.
 const creators = ["<@218397146049806337>", "<@309845156696424458>"]; // Jett and Jonah
-const botAdmin = []; // Maybe fill this with IDs of users who can use eval.
+const botAdmin = [376384142599782410]; // Maybe fill this with IDs of users who can use eval.
 const blacklisted = []; // IDs of blacklisted users.
 
 // Embed colors.
