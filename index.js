@@ -38,7 +38,7 @@
 ***/
 
 // Load .env variables.
-require(".env").load();
+require("dotenv").load();
 
 // Require needed modules.
 const Discord = require("discord.js");
